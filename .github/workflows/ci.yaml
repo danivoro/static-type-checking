@@ -18,6 +18,6 @@ jobs:
     - name: Check quality with ESLint
       run: yarn lint
     - name: Test types with TypeScript
-      run: type-check
+      run: yarn type-check
     - name: Run tests with Jest
       run: yarn test
